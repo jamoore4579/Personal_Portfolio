@@ -18,7 +18,7 @@ body {
 header {
     padding: 0;
     margin: 0;
-    background-color: var(--primary-color);
+    background-color: var(--primary-text-color);
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -28,7 +28,7 @@ header {
     margin: 6px 0 6px 0;
     font-size: 30px;
     font-weight: normal;
-    background-color: var(--primary-text-color);
+    background-color: var(--primary-color);
     padding: 10px 0 0 0;
 }
 
@@ -37,7 +37,8 @@ header {
 }
 
 .logo-text {
-    color: var(--primary-color);
+    color: var(--primary-text-color);
+    font-weight: bold;
 }
 
 header a {
@@ -55,12 +56,30 @@ header nav ul {
 
 header nav ul li a {
     padding: 10px 10px;
-    color: var(--primary-text-color);
-    font-weight: bold;
+    color: var(--primary-color);
+    font-weight:bold;
 }
 
 .link {
-    border-bottom: solid var(--primary-text-color) 3px;
+    border-bottom: solid var(--primary-color) 3px;
     padding: 3px 0;
     margin: 10px;
+}
+
+.hero {
+    margin: 0;
+    height: 150px;
+    background-image: url(../img/clovers.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: right;
+    flex-wrap: wrap;
+}
+
+.hero-text {
+    border: black solid 1px;
+    padding: 10px;
+    margin: 60px 20px 10px 0;
+
 }
