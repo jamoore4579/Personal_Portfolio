@@ -114,15 +114,12 @@ header nav ul li a {
 
 /*-- Footer Styles --*/
 
-.footer-section {
+.footer-title-section {
     float: left;
     width: 20%;
     padding: 10px;
     height: 130px;
     background-color: var(--primary-text-color);
-}
-.footer-text {
-    color: var(--primary-color);
 }
 
 .footer-label {
@@ -133,3 +130,30 @@ header nav ul li a {
     color: var(--primary-color);
     border-right: 2px solid var(--primary-color);
 }
+
+.footer-info {
+    width: 80%;
+    float: right;
+    background-color: var(--primary-text-color);
+    height: 130px;
+}
+
+.footer-info ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 50px 15px 0 15px;
+    margin: 0 20px 0 20px;
+}
+
+.footer-info ul li {
+    color: var(--primary-color);
+    font-weight: bold;
+    border-bottom: solid 3px var(--primary-color);
+    padding: 3px 7px;
+    margin: 10px;
+}
+
+
