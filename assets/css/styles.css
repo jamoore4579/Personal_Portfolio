@@ -69,7 +69,7 @@ header nav ul li a {
 .hero {
     margin: 0;
     height: 150px;
-    background-image: url(../img/02-hero-bg.jpg);
+    background-image: url(../img/code_background.jpg);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -83,26 +83,6 @@ header nav ul li a {
     margin: 60px 20px 10px 0;
 }
 
-.title-section {
-    float: left;
-    width: 20%;
-    padding: 10px;
-    height: 230px;
-    background-color: var(--primary-text-color);
-}
-
-.content {
-    float: right;
-    width: 80%;
-    padding: 10px;
-    height: 230px;
-}
-
-.about-me {
-    display: flex;
-    clear: both;
-}
-
 .labels {
     text-align: right;
     font-size: 23px;
@@ -110,6 +90,96 @@ header nav ul li a {
     padding-bottom: 25px;
     color: var(--primary-color);
     border-right: 2px solid var(--primary-color);
+}
+
+/*-- About Me Styles --*/
+
+.about-me {
+    display: flex;
+    clear: both;
+}
+
+.content {
+    float: right;
+    width: 80%;
+    padding: 10px;
+    height: 230px;
+    border: solid 2px black;
+}
+
+.about-me .title-section {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    height: 230px;
+    background-color: var(--primary-text-color);
+}
+
+/*-- Work Section --*/
+
+.work {
+    display: flex;
+}
+
+.work .title-section {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    height: 330px;
+    background-color: var(--primary-text-color);
+}
+
+.projects {
+    float: right;
+    width: 80%;
+    padding: 10px;
+    height: 330px;
+    border: solid 2px black;
+    padding: 5px;
+}
+
+.prj1 {
+    display:center;
+    width: 100%;
+    height: 100px;
+    border: solid 3px red;
+    margin: 3x auto;
+}
+
+.prj-boxs {
+    display: flex;
+}
+
+.prj2 {
+    float: left;
+    width: 50%;
+    height: 100px;
+    border: solid 3px red;
+    margin: 3px 3px 3px 0;
+}
+
+.prj3 {
+    float: right;
+    width: 50%;
+    height: 100px;
+    border: solid 3px red;
+    margin: 3px 0 3px 3px;
+}
+
+.prj4 {
+    float: left;
+    width: 50%;
+    height: 100px;
+    border: solid 3px red;
+    margin: 3px 3px 3px 0;
+}
+
+.prj5 {
+    float: right;
+    width: 50%;
+    height: 100px;
+    border: solid 3px red;
+    margin: 3px 0px 3px 3px;
 }
 
 /*-- Footer Styles --*/
