@@ -77,10 +77,20 @@ header nav ul li a {
     flex-wrap: wrap;
 }
 
-.hero-text {
-    border: black solid 1px;
-    padding: 10px;
-    margin: 60px 20px 10px 0;
+.hero-box {
+    border: solid 2px var(--primary-color);
+    border-radius: 3px;
+    padding: 5px 6px 0 6px;
+    margin: 95px 20px 10px 0;
+    background-color: var(--primary-color);
+    color: var(--primary-text-color);
+    font-size: 30px;
+    text-align: center;
+}
+
+.hero-box-text {
+    margin: 0;
+    padding: 0;
 }
 
 .labels {
