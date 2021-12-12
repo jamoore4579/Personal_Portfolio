@@ -30,6 +30,9 @@ header {
     font-weight: normal;
     background-color: var(--primary-color);
     padding: 10px 0 0 0;
+    border: solid 1px var(--primary-color);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
 .logo-box {
@@ -79,18 +82,18 @@ header nav ul li a {
 
 .hero-box {
     border: solid 2px var(--primary-color);
-    border-radius: 3px;
+    border-radius: 5px;
     padding: 5px 6px 0 6px;
     margin: 95px 20px 10px 0;
     background-color: var(--primary-color);
     color: var(--primary-text-color);
-    font-size: 30px;
-    text-align: center;
 }
 
 .hero-box-text {
     margin: 0;
     padding: 0;
+    font-size: 30px;
+    text-align: center;
 }
 
 .labels {
@@ -155,12 +158,10 @@ header nav ul li a {
     height: 150px;
     border: solid 3px var(--primary-color);
     margin: 3px auto;
-    background-image: url(../img/02-run-buddy.jpg);
-    background-size: cover;
-    background-position:top;
+    display: flex;
 }
 
-.prj-boxs {
+.prj-boxed {
     display: flex;
 }
 
@@ -170,9 +171,7 @@ header nav ul li a {
     height: 150px;
     border: solid 3px var(--primary-color);
     margin: 3px 3px 3px 0;
-    background-image: url(../img/02-portfolio-1.jpg);
-    background-size: cover;
-    background-position:inherit;
+    display: flex;
 }
 
 .prj3 {
@@ -181,9 +180,7 @@ header nav ul li a {
     height: 150px;
     border: solid 3px var(--primary-color);
     margin: 3px 0 3px 3px;
-    background-image: url(../img/02-portfolio-2.jpg);
-    background-size: cover;
-    background-position:top;
+    display: flex;
 }
 
 .prj4 {
@@ -192,9 +189,7 @@ header nav ul li a {
     height: 150px;
     border: solid 3px var(--primary-color);
     margin: 3px 3px 3px 0;
-    background-image: url(../img/02-portfolio-3.jpg);
-    background-size: cover;
-    background-position:left;
+    display: flex;
 }
 
 .prj5 {
@@ -203,9 +198,52 @@ header nav ul li a {
     height: 150px;
     border: solid 3px var(--primary-color);
     margin: 3px 0px 3px 3px;
-    background-image: url(../img/02-portfolio-4.jpg);
-    background-size:cover;
-    background-position: right;
+    display: flex;
+}
+
+.prj1-img {
+    width: 100%;
+    display: flex;
+    opacity: 70%;
+}
+
+.prj1-img:hover {
+    opacity: 100%;
+}
+
+.prj-img {
+    width: 100%;
+    display: flex;
+    opacity: 70%;
+}
+
+.prj-img:hover {
+    opacity: 100%;
+}
+
+.proj-box {
+    border: solid 2px var(--primary-color);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 5px 6px 0 6px;
+    margin: 78px 20px 10px 0;
+    background-color: var(--primary-color);
+    color: var(--primary-text-color);
+    position: absolute;
+}
+
+.proj-box-text {
+    margin: 0;
+    padding: 3px 0;
+    font-size: 20px;
+    text-align: center;
+}
+
+.proj-box-text-small {
+    margin: 0;
+    padding: 3px 0;
+    font-size: 10px;
+    text-align: center; 
 }
 
 /*-- Footer Styles --*/
