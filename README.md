@@ -8,4 +8,6 @@ Link to project site: https://jamoore4579.github.io/Week2_challenge_moore/
 
 Link to project screen shot: https://github.com/jamoore4579/Week2_challenge_moore/blob/main/Portfolio.JPG
 
+Link to project repository: https://github.com/jamoore4579/Week2_challenge_moore
+
 
