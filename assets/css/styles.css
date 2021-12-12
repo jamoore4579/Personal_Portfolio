@@ -318,42 +318,90 @@ header nav ul li a {
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 860px) {
 
-    .about-me .title-section {
-        float: left;
-        width: 20%;
+    .content {
+        justify-content: center;
+        width: 100%;
         padding: 15px 10px 10px 10px;
         height: 230px;
         background-color: var(--primary-text-color);
+        color: var(--primary-color);
+    }
+
+    .projects {
+        justify-content: center;
+        width: 100%;
+        padding: 10px;
+        height: 475px;
+        padding: 5px;
+        background-color: var(--primary-text-color);
+    }
+
+    .footer-info {
+        width: 100%;
+        justify-content: center;
+        background-color: var(--primary-text-color);
+        height: 130px;
+    }
+
+    .about-me .title-section {
+        display: none;
     }
 
     .work .title-section {
-        float: left;
-        width: 20%;
-        padding: 10px;
-        height: 475px;
-        background-color: var(--primary-text-color);
+        display: none;
     }
 
     .footer-title-section {
-        float: left;
-        width: 20%;
-        padding: 10px;
-        height: 130px;
-        background-color: var(--primary-text-color);
+        display: none;
+    }
+
+    .labels {
+        display: none;
     }
     
     .footer-label {
-        text-align: right;
-        font-size: 18px;
-        padding-right: 10px;
-        padding-bottom: 25px;
-        color: var(--primary-color);
-        border-right: 2px solid var(--primary-color);
+        display: none;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 720px) {
 
+    header nav {
+        flex: 0 100%;
+        text-align: center;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        list-style: none;
+        margin: 10px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    header nav ul {
+        display: flex;
+        align-items: center;
+        list-style: none;
+        padding: 0;
+        margin: 0 20px 0 20px;
+    }
+
+    .footer-info ul {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        list-style: none;
+        padding: 0;
+        margin: 25px 0 0 0 ;
+    }
+
+    header nav ul li a {
+        align-items: center;
+        padding: 30px 30px;
+        color: var(--primary-color);
+        font-weight:bold;
+    }
 }
