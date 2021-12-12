@@ -285,7 +285,6 @@ header nav ul li a {
 .footer-info ul li {
     color: var(--primary-color);
     font-weight: bold;
-    /*border-bottom: solid 3px var(--primary-color);*/
     padding: 3px 7px;
     margin: 10px;
 }
@@ -293,4 +292,14 @@ header nav ul li a {
 .footer-info ul li a {
     font-size: 40px;
     color: var(--primary-color);
+    position: relative;
+}
+
+.footer-info ul li a p {
+    font-size: 20px;
+}
+
+
+.phone {
+    text-decoration: none;
 }
