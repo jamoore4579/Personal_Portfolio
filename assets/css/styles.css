@@ -22,17 +22,20 @@ header {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    position: sticky;
+    top: 0;
+    background-image: url(../img/coding.jfif);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 80%;
+    z-index: 9999;
 }
 
 .logo {
     margin: 6px 0 6px 0;
     font-size: 30px;
     font-weight: normal;
-    background-color: var(--primary-color);
     padding: 10px 0 0 0;
-    border: solid 1px var(--primary-color);
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
 }
 
 .logo-box {
@@ -40,7 +43,7 @@ header {
 }
 
 .logo-text {
-    color: var(--primary-text-color);
+    color: #ffffff;
     font-weight: bold;
 }
 
@@ -59,12 +62,11 @@ header nav ul {
 
 header nav ul li a {
     padding: 10px 10px;
-    color: var(--primary-color);
+    color: #ffffff;
     font-weight:bold;
 }
 
 .link {
-    border-bottom: solid var(--primary-color) 3px;
     padding: 3px 0;
     margin: 10px;
 }
@@ -72,21 +74,20 @@ header nav ul li a {
 .hero {
     margin: 0;
     height: 150px;
-    background-image: url(../img/02-hero-bg.jpg);
+    background-image: url(../img/coding.jfif);
     background-size: cover;
     background-position: center;
     display: flex;
     justify-content: right;
     flex-wrap: wrap;
+    background-attachment: fixed;
+    background-position: 80%;
 }
 
 .hero-box {
-    border: solid 2px var(--primary-color);
-    border-radius: 5px;
     padding: 5px 6px 0 6px;
     margin: 95px 20px 10px 0;
-    background-color: var(--primary-color);
-    color: var(--primary-text-color);
+    color: #ffffff;
 }
 
 .hero-box-text {
