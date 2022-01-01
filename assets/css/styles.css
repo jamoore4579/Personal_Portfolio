@@ -24,8 +24,8 @@ header {
     flex-wrap: wrap;
     position: sticky;
     top: 0;
-    background-image: url(../img/coding.jfif);
-    background-size: cover;
+    background-image: url(../img/background.jpg);
+    background-size: 100%;
     background-attachment: fixed;
     background-position: 80%;
     z-index: 9999;
@@ -74,8 +74,8 @@ header nav ul li a {
 .hero {
     margin: 0;
     height: 150px;
-    background-image: url(../img/coding.jfif);
-    background-size: cover;
+    background-image: url(../img/background.jpg);
+    background-size: 100%;
     background-position: center;
     display: flex;
     justify-content: right;
