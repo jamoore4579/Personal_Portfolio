@@ -265,7 +265,7 @@ header nav ul li a {
     float: left;
     width: 20%;
     padding: 10px;
-    height: 130px;
+    height: 100px;
     background-color: var(--primary-text-color);
 }
 
@@ -273,7 +273,6 @@ header nav ul li a {
     text-align: right;
     font-size: 18px;
     padding-right: 10px;
-    padding-bottom: 25px;
     color: var(--primary-color);
     border-right: 2px solid var(--primary-color);
 }
@@ -282,7 +281,7 @@ header nav ul li a {
     width: 80%;
     float: right;
     background-color: var(--primary-text-color);
-    height: 130px;
+    height: 100px;
 }
 
 .footer-info ul {
@@ -291,7 +290,7 @@ header nav ul li a {
     justify-content: space-between;
     align-items: center;
     list-style: none;
-    padding: 50px 15px 0 15px;
+    padding: 5px 15px 0 15px;
     margin: 0 20px 0 20px;
 }
 
